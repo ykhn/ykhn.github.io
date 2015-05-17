@@ -1,18 +1,20 @@
 /*
-	Aerial by HTML5 UP
+	Twenty by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-@import 'vars';
-@import 'mixins';
-
 /* Basic */
 
 	body, input, select, textarea {
-		font-size: 13pt;
+		font-size: 14pt;
 	}
 
-/* BG */
+/* Section/Article */
 
-	@include bg($bg-width);
+	header {
+		&.special {
+			padding-top: 5.5em;
+			margin-bottom: 4em;
+		}
+	}

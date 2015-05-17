@@ -1,67 +1,45 @@
-Aerial by HTML5 UP
+Twenty by HTML5 UP
 html5up.net | @n33co
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-This is Aerial, a single page, single screen responsive site template. Real simple.
-Makes heavy use of CSS animation (something I've been messing with a lot lately).
-Should work well as a landing page that just directs folks to your stuff elsewhere
-on the www. Sass sources are also included, so if you've never used Sass and you're
-interested in giving it a try, head on over to sass-lang.com (and if not, you can
-safely delete the "sass/" folder).
+This is Twenty, a minimal, multi-page responsive site template for HTML5 UP.
 
-The scrolling mountainous background was derived from "Icefields" by Ryan Schroeder,
-a talented photographer from Vancouver who graciously released it on Unsplash under
-the CC0 license. Be sure to check out his other stuff over at flickr (link below)
-as well as all the other kickass CC0-licensed images at Unsplash (unsplash.com).
+As the name implies, this is my twentieth (!) design for HTML5 UP. Since the last
+few have been single page affairs, I decided to go with something a bit more conventional
+and threw in four extra page layouts. Beyond that, it's the usual drill: fully responsive,
+built on HTML5/CSS3/skel, and CCA licensed like all my other stuff. Sass sources are
+also included for those of you into that sort of thing (entirely optional).
 
-Questions/comments/issues = just email or find me on Twitter. Have fun!
+Special thanks to Michael Domaradzki (md.photomerchant.net) for allowing me to use
+his excellent photos in Twenty's demo*.
+
+(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
+and/or use any of Michael's work without his explicit permission!)
 
 AJ
 n33.co @n33co dribbble.com/n33
 
 
-The Scrolling Background:
-
-	This relies entirely on CSS to do its thing, which is cool, but that makes
-	changing it a bit weird/tricky at first. You can still use pretty much any image
-	you want, but for best results make sure yours is:
-	
-	- Horizontally tileable.
-	- Wide and short.
-	- About 1500px wide.
-	- Fades to a solid color either at the top of bottom (which is used to fill
-	  the empty space above or below your image).
-
-	Now, there are two ways to use it: with CSS, or with Sass:
-
-	CSS:
-	
-		Look for this line in css/style.css (line 108 as of this writing):
-		
-			background: #348cb2 url("images/bg.jpg") bottom left;
-			
-		and use it to set the page background color, URL, and placement of
-		your image. It should be as close to 1500px wide as you can get it.
-
-	Sass:
-	
-		Set the value of $bg to the page background color, URL, and placement
-		of your image. Change $bg-width if your image is something other than
-		1500px wide.
-
-
 Credits:
 
-	Background Image:
-		Ryan Schroeder via Unsplash (unsplash.com - CC0 licensed)
-			"Icefields" (flickr.com/photos/ryanschroeder/11876741703)
+	Demo Images:
+		Michael Domaradzki (md.photomerchant.net)
+			"Night Vision"
+			"At the Station II"
+			"Airchitecture II"
+			"Livewires II"
+			"Midnite Xpress I"
 
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
 
 	Other:
+		jQuery (jquery.com)
 		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		CSS3 PIE (css3pie.com)
-		Sass (sass-lang.com)
+		CSS3 Pie (css3pie.com)
+		background-size polyfill (github.com/louisremi)
+		jquery.dropotron (n33.co)
+		jquery.scrolly (n33.co)
+		jquery.scrollgress (n33.co)
 		skel (n33.co)

@@ -1,5 +1,5 @@
 /*
-	Aerial by HTML5 UP
+	Twenty by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -7,17 +7,12 @@
 /* Basic */
 
 	body, input, select, textarea {
-		font-size: 13pt;
+		font-size: 14pt;
 	}
 
-/* BG */
-	@-moz-keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-1500px,0,0); -webkit-transform: translate3d(-1500px,0,0); -o-transform: translate3d(-1500px,0,0); -ms-transform: translate3d(-1500px,0,0); transform: translate3d(-1500px,0,0); } }
-	@-webkit-keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-1500px,0,0); -webkit-transform: translate3d(-1500px,0,0); -o-transform: translate3d(-1500px,0,0); -ms-transform: translate3d(-1500px,0,0); transform: translate3d(-1500px,0,0); } }
-	@-o-keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-1500px,0,0); -webkit-transform: translate3d(-1500px,0,0); -o-transform: translate3d(-1500px,0,0); -ms-transform: translate3d(-1500px,0,0); transform: translate3d(-1500px,0,0); } }
-	@-ms-keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-1500px,0,0); -webkit-transform: translate3d(-1500px,0,0); -o-transform: translate3d(-1500px,0,0); -ms-transform: translate3d(-1500px,0,0); transform: translate3d(-1500px,0,0); } }
-	@keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-1500px,0,0); -webkit-transform: translate3d(-1500px,0,0); -o-transform: translate3d(-1500px,0,0); -ms-transform: translate3d(-1500px,0,0); transform: translate3d(-1500px,0,0); } }
+/* Section/Article */
 
-	#bg {
-		background-size: 1500px auto;
-		width: 4500px;
+	header.special {
+		padding-top: 5.5em;
+		margin-bottom: 4em;
 	}

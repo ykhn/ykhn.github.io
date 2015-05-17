@@ -1,42 +1,40 @@
-//
-//	Aerial by HTML5 UP
-//	html5up.net | @n33co
-//	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-//
+$color-bg:					#f3f6fa;
+$color-fg:					#7c8081;
 
-$bg:						#348cb2 url("images/bg.jpg") bottom left;
-$bg-width:					1500px;
+$color-border:				transparentize($color-fg, 0.8);
 
-$color-bg:					#fff;
-$color-fg:					#fff;
-$color-nav-icon-hover-bg:	rgba(255,255,255,0.175);
-$color-nav-icon-hover-fg:	#fff;
-$color-nav-icon-active-bg:	rgba(255,255,255,0.35);
-$color-nav-icon-active-fg:	#fff;
+$color-header-bg:			#fff;
+$color-header-fg:			inherit;
+$color-header-alt-bg:		transparent;
+$color-header-alt-fg:		#fff;
 
-$duration-bg:				60s;
-$duration-wrapper:			3s;
-$duration-overlay:			1.5s;
-$duration-header:			1s;
-$duration-nav-icons:		0.5s;
+$color-banner-bg:			#898786;
+$color-banner-fg:			#fff;
+$color-banner-inner-bg:		#341b2b;
+$color-banner-inner-fg:		#fff;
 
-$delay-wrapper:				$duration-wrapper - 1s;
-$delay-overlay:				$delay-wrapper - 0.5s;
-$delay-header:				$delay-overlay + $duration-overlay - 0.75s;
-$delay-nav-icons:			$delay-header + $duration-header - 1s;
-$delay-nav-icon:			0.25s;
+$color-footer-bg:			#E8EEF4;//#e2e5e8;
+$color-footer-fg:			#7c8081;
 
-$size-nav-icon-wrapper:		5.35em;
-$size-nav-icon:				1.75em;
+$color-one-bg:				#83d3c9;
+$color-one-fg:				#fff;
+$color-two-bg:				#fff;
+$color-two-fg:				inherit;
+$color-three-bg:			#645862;
+$color-three-fg:			#fff;
 
-@mixin bg($width) {
-	@include vendor-keyframes('bg') {
-		0%		{ @include vendor-property('transform', 'translate3d(0,0,0)'); }
-		100%	{ @include vendor-property('transform', 'translate3d(#{$width * -1},0,0)'); }
-	}
+$color-navPanel-bg:			#1c2021;
+$color-navPanel-fg:			#fff;
+$color-navButton-bg:		rgba(163,169,170,0.75);
+$color-navButton-fg:		#fff;
 
-	#bg {
-		background-size: $width auto;
-		width: ($width * 3);
-	}
-}
+$color-twitter-bg:			#70aecd;
+$color-twitter-fg:			#fff;
+$color-facebook-bg:			#7490c3;
+$color-facebook-fg:			#fff;
+$color-google-plus-bg:		#db6b67;
+$color-google-plus-fg:		#fff;
+$color-github-bg:			#dcad8b;
+$color-github-fg:			#fff;
+$color-dribbble-bg:			#da83ae;
+$color-dribbble-fg:			#fff;

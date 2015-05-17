@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Aerial by HTML5 UP
+	Twenty by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -11,48 +11,175 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollgress.min.js"></script>
 		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+        
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
 			<link rel="stylesheet" href="css/style-noscript.css" />
 		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	   <link rel="icon" 
-      type="image/png" 
-      href="favicon.png">
-    
-    </head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body class="index">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Khanh Nguyen</h1>
-						<p>Computer Science Student &nbsp;&bull;&nbsp; Photographer &nbsp;&bull;&nbsp; Die-hard women's soccer fan.</p>
-						<nav>
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1 id="logo"><a href="index.html">Khanh <span>Nguyen</span></a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="current"><a href="resume.html#resume">Resume</a></li>
+						<li class="submenu">
+							<a href="">My Work</a>
 							<ul>
-								<li><a href="http://www.twitter.com/khanhnwin" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="http://www.facebook.com/khanh.nwin" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<!---<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>-->
-								<li><a href="http://github.com/ykhn" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="mailto:khanhnwin@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+								<li><a href="portfolio.html#portfolio">Projects</a></li>
+								<li class="submenu">
+									<a href="">Media</a>
+									<ul>
+                                        <li><a href="#">Coming Soon!</a></li>
+									</ul>
+								
+								
 							</ul>
-						</nav>
-					</header>
+						</li>
+                        <li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Khanh Nguyen. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+		<!-- Banner -->
+			<section id="banner">
+
+				<!--
+					".inner" is set up as an inline-block so it automatically expands
+					in both directions to fit whatever's inside it. This means it won't
+					automatically wrap lines, so be sure to use line breaks where
+					appropriate (<br />).
+				-->
+				<div class="inner">
+
+					<header>
+						<h2><strong>Hello, </strong>I'm Khanh</h2>
+					</header>
+					<p>  Computer Science student • photographer • die-hard women's soccer fan. 
+                    <br />
+                    <!---(Not necessarily in that order.)-->
+					<!---<br />-->
+					<!--responsive template
+					<!---<br />-->
+					<!---by <a href="http://html5up.net">HTML5 UP</a>.--></p>
+					<footer>
+						<ul class="buttons vertical">
+							<li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
+						</ul>
 					</footer>
-				
-			</div>
-		</div>
+
+				</div>
+
+			</section>
+
+		<!-- Main -->
+			<article id="main">
+
+				<header class="special container">
+					<span class="icon fa-home"></span>
+                    <h2><strong>A </strong>little<strong> bit about me.</strong></h2>
+                    <br />
+                    <img src="images/khanhabout.jpg">
+                    <br />
+                    <br />
+					
+					<p>As my header gave away, my name is Khanh Nguyen. I'm currently a freshman computer science <br /> major at Drexel University in Philadelphia, PA. Outside of intensely staring at my computer and tapping <br />away at random  keys, I also enjoy taking pictures, filmmaking/video production, as well as spending <br />time with family and friends. I'm also an avid women's soccer fan. (GO USWNT!)</p>
+                    <p>I aspire to one day start my own tech company.</p>
+				</header>
+
+				<!-- One -->
+
+					<section class="wrapper style2 container special-alt">
+						<div class="row 50%">
+							<div class="8u 12u(narrower)">
+
+								<header>
+									<h2>Some of my recent Projects</h2>
+								</header>
+
+						<div class="row">
+							<div class="6u 12u(narrower)">
+
+								<section>
+									<a href="vikingcall.html" class="image featured"><img src="portfolio/vikingcall/vikingcall1.png" alt="" /></a>
+									<header>
+										<h3>The Viking Call</h3>
+									</header>
+								</section>
+
+							</div>
+							<div class="6u 12u(narrower)">
+
+								<section>
+									<a href="akakhanh.html" class="image featured"><img src="portfolio/tumblr/akakhanh1.png" alt="" /></a>
+									<header>
+										<h3>akaKhanh Tumblr</h3>
+									</header>
+								</section>
+
+							</div>
+						</div>
+							</div>
+
+							<div class="4u 12u(narrower) important(narrower)">
+                            <br />
+                            <br />
+                            <p>These are some of the most recent projects that I've worked on, ranging from website designs to coding projects. </p>
+                                <footer>
+									<ul class="buttons">
+										<li><a href="portfolio.html" class="button">Find Out More</a></li>
+									</ul>
+								</footer>
+                           
+
+							</div>
+
+						</div>
+					</section>
+			</article>
+
+		<!-- CTA -->
+			<section id="cta">
+
+				<header>
+                    <p>Enough about me.</p>
+					<h2>How about <strong>you</strong>?</h2>
+					
+				</header>
+				<footer>
+					<ul class="buttons">
+                        
+						<li><a href="mailto:khanhnwin@gmail.com" class="button special">Talk to me.</a></li>
+					</ul>
+				</footer>
+
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+                
+				<ul class="icons">
+					<li><a href="http://www.twitter.com/KhanhNwin" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+				</ul>
+
+				<ul class="copyright">
+					<li>&copy; Khanh Nguyen</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+
+			</footer>
+
 	</body>
 </html>
