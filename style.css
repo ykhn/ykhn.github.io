@@ -191,7 +191,7 @@ a #more-info:hover {
     font-size: 12px;
   }
   .container {
-    width: 106vw;
+    width: 100vw;
     overflow-x: hidden;
   }
   .container p {
@@ -202,8 +202,8 @@ a #more-info:hover {
     overflow-x: hidden;
   }
   #header {
-    width: 106vw;
-    height: 106vh;
+    width: 100vw;
+    height: 100vh;
   }
   #header h1 {
     font-size: 5rem;
