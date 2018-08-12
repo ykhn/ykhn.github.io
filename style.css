@@ -178,3 +178,46 @@ a {
     top: 0rem;
   }
 }
+
+@media (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    width: 100%;
+  }
+  .container p {
+    font-size: 1.75rem;
+    line-height: 2.65rem;
+  }
+  #about .blurb {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #about .blurb .text {
+    width: 85%;
+  }
+  #projects .portfolio {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #projects .portfolio .project-item {
+    width: 85%;
+    margin-bottom: 1.5rem;
+  }
+  #projects .portfolio .project-item h4 {
+    font-size: 2rem;
+  }
+  #projects .portfolio .project-item p {
+    font-size: 1.75rem;
+    line-height: 2.65rem;
+  }
+  #projects .portfolio .project-item img {
+    opacity: 1;
+  }
+  #contact .socials .icon {
+    width: 20%;
+  }
+}
