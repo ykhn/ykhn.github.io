@@ -89,11 +89,6 @@ a #more-info {
   cursor: pointer !important;
 }
 
-a #more-info:hover {
-  color: #45aab0 !important;
-  transition: color .1s;
-}
-
 #about .blurb {
   display: flex;
   align-items: center;
