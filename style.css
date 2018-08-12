@@ -24,6 +24,7 @@ body {
 .section .title {
   font-size: 3rem;
   padding: .5rem;
+  padding-left: 2rem;
   color: #56bbc1;
   border-bottom: 1px solid #56bbc1;
 }
